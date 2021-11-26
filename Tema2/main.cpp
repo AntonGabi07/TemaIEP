@@ -9,7 +9,10 @@
 
 int main(){
 	BetterName name("Mihai",10);
-	std::cout<<name<<std::endl;
+	BetterName temp;
+	name=name;
+	temp=name; 
+	std::cout<<temp<<std::endl;
 
 	GoodName gname("Ionut");
 	gname=gname;

@@ -3,11 +3,12 @@
 
 class GoodName{
     
-    char *_name;
+    char *_name=nullptr;
 
 public:
 
-    GoodName(const char *name=nullptr); //normal constructor
+    GoodName(){}
+    GoodName(const char *name); //normal constructor
     ~GoodName();
     
     void setName(const char* newName);

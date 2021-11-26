@@ -5,10 +5,10 @@
 
 class BetterName : public GoodName{
 
-    int _grade;
+    int _grade=0;
 
 public:
-
+    BetterName(){}
     BetterName(const char* name, int grade) : GoodName(name),_grade(grade){}
     BetterName(const BetterName &rhs);
     BetterName& operator=(const BetterName &rhs);
