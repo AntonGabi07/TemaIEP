@@ -1,2 +1,2 @@
 default:
-	g++ main.cpp Building.cpp Address.cpp -o out
+	g++ main.cpp Building.cpp Address.cpp Lock.cpp -o out
